@@ -50,17 +50,13 @@ If you receive any vulnerabilities when installing npm modules, after the comman
 npm audit fix
 ```
 
-**Setup the Database**
+**Setup the .env file**
 
-Open `.env` and make sure the `DB_DATABASE` name is correct for your setup.
-
-If there is no such file, copy the `.env.example` file and name it `.env`.
+Copy the `.env.example` file and name it `.env`.
 
 ```
 copy .env.example .env
 ```
-
-Then, create the database on localhost server (I used PhpStorm IDE to create the initial DB in XAMPP) by naming it the same as `DB_DATABASE` line
 
 **Generate key**
 
