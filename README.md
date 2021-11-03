@@ -50,8 +50,9 @@ If you receive any vulnerabilities when installing npm modules, after the comman
 npm audit fix
 ```
 
-**Setup the .env file**
+**Setup database**
 
+Create a local DB named `database.sqlite` in `/database` folder.
 Copy the `.env.example` file and name it `.env`.
 
 ```
