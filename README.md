@@ -83,5 +83,10 @@ You can use Nginx or Apache, but the built-in web server works great:
 php -S localhost:8000 -t public
 ```
 
+**.csv example**
+
+Please find the example .csv file attached:
+[appointments.csv](https://github.com/MarkBukowski/vaccination-task/files/7467675/appointments.csv)
+
 ## Authors
 [MarkBukowski](https://github.com/MarkBukowski)
