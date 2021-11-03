@@ -113,7 +113,7 @@ class AppointmentController extends Controller
         $appointment->time = $request->time;
         $appointment->save();
 
-        return redirect()->route('appointments.index')->with('success_message', 'Appointment details updated successfully.');
+        return redirect()->back()->with('success_message', 'Appointment details updated successfully.');
     }
 
     /**
@@ -125,7 +125,7 @@ class AppointmentController extends Controller
     public function destroy(Appointment $appointment)
     {
         $appointment->delete();
-        return redirect()->route('appointments.index')->with('success_message', 'Appointment removed successfully');
+        return redirect()->back()->with('success_message', 'Appointment removed successfully');
     }
 
     public function export($date)
